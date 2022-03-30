@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-
+import Layout from '../components/Layout'
 
 const Home: NextPage = () => {
   return (
-    <div className=''>
-      Base project
-    </div>
+    <Layout title='home'>
+      This is the home
+    </Layout>
   )
 }
 
